@@ -53,7 +53,7 @@ main {
 }
 
 .button-box{
-    padding:  0;
+    margin-top: -2em;
      display: grid;
      grid-template-columns: repeat(4, 1fr);
      
@@ -351,53 +351,28 @@ align-items: flex-start;
 padding: 35px 0px;
 }
 
-.btn-toBuy{
-    max-width: 1000px;
-    margin: 55px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.btn-toBuy a{
-    
-    font-size: 18px;
-    font-weight: 300;
-    color: white;
-    padding: 15px 30px;
-    border-radius:5px ;
-background-color: #f8223e;
-}
 
-.bannerMain-info{
-    display: flex;
-    justify-content: center;
-   
+
+@media (max-width: 768px){
+    .button-box {
+        grid-template-columns: 100%;
+    }
+
+    .nordic-bed  .title h2 {
+       font-size: 35px;
+    }
+    .details-bed{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .cards-shop{
+        flex-direction:column ;
+    }
+    .bed-list-esp{
+        grid-template-columns: 100%;
+    }
+    .esp-item{
+        margin: 1em 0;
+
+    }
 }
-.bannerMain-info a{
-
-color:  #303331;
-}
-
-.bannerMain-info1{
-    margin-right: 5em;
-    background-color: #505D68;
-    
-
-}
-.bannerMain-info2{
-    margin-right: 5em;
-    background-color:  #A5B0BA;
-
-}
-.bannerMain-info3{
-    margin-right: 5em;
-    background-color: #505D68;
-
-}
-.bannerMain-info4{
-    margin-right: 5em;
-    background-color:  #A5B0BA;
-
-}
-
