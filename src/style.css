@@ -23,7 +23,7 @@
  }
 
 body {
-	line-height: 1;
+	line-height: 1.15;
 }
 
 a{
@@ -37,35 +37,39 @@ main {
     width: 100%;
     margin: 0 auto;
 }
+
 /*end/reset*/
 
-/*HEDER*/
+/*navbar*/
 .navbar-logo img{
     width: 100%;
 
 }
 
+
+
+
 /*body-banner*/
 
-.bannerMain-container img{
-    width: 100%;
-    height: 360px;
+.bannerMain-container {
+    overflow: hidden;
+   
 }
 
 .button-box{
-    margin-top: -2em;
+    margin-top: -5px;
      display: grid;
      grid-template-columns: repeat(4, 1fr);
      
     
 }
-.button1 {
+.button-scroll  {
     background-color: #A5B0BA;
     text-align: center;
     font-size: 2em;
     
 }
-.button {
+.button  {
     background: #BCC6CF;
     text-align: center;
     font-size: 2em;
@@ -203,7 +207,7 @@ align-items: center;
     align-items: center;
  }
  .shop-title h2{
-    font-family: Montserrat;
+    font-family:  'Nunito';
     font-weight: 700;
     font-size: 30px;
     color: #373737;
@@ -242,7 +246,7 @@ align-items: center;
  }
 
  .title h2{
-    font-family: Montserrat;
+    font-family:  'Nunito';
      font-weight: 700;
  font-size: 40px;
  color: #373737;
