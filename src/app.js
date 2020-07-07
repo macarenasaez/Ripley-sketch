@@ -7,7 +7,7 @@ $(".button-scroll").click(function() {
   });
   
 
- 
+ //función slick para carousel
   $('.bannerMain-container').slick({
     arrows: false /*para esconder btn nex */
   });
