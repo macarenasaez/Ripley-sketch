@@ -1,11 +1,18 @@
-$(".button-scroll").click(function() {
-    let name = $(this).data("name")
-    let box = "#" + name + "-box"
-    $('html, body').animate({
-    scrollTop: $(box).offset().top
-    }, 3000);
-  });
-  
+
+//función scroll
+$(".button").on("click", function(){
+  let posicion = $("#escandinava").offset().top;
+  $("html, body").animate({
+      scrollTop: posicion
+  }, 2000); 
+});
+
+$(".button-scroll").on("click", function(){
+  let posicion = $("#oslo").offset().top;
+  $("html, body").animate({
+      scrollTop: posicion
+  }, 2000); 
+});
 
  //función slick para carousel
   $('.bannerMain-container').slick({

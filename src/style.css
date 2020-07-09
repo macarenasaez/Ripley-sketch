@@ -76,7 +76,7 @@ main {
    
 }
 
-.button-box{
+.button-box ul{
     margin-top: -5px;
      display: grid;
      grid-template-columns: repeat(4, 1fr);
@@ -86,13 +86,13 @@ main {
 .button-scroll  {
     background-color: #A5B0BA;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     
 }
 .button  {
     background: #BCC6CF;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 }
 .button-box a {
     text-align: center;
@@ -190,11 +190,13 @@ align-items: center;
      display: flex;
      justify-content: center;
      padding: 1em 0;
+    
  }
  .details-text .button-item a:nth-last-child(1){
     border: 1px solid #EA2142;
     background-color: #EA2142;
     color: #FFF;
+   
  }
  .details-text .button-item a{
     font-weight: 600;
@@ -359,8 +361,9 @@ align-items: center;
     align-items: center;
 
   } 
+  
 
-  b {
+  b,strong {
     font-weight: bolder;
   }    
    
@@ -378,7 +381,7 @@ padding: 35px 0px;
 
 
 @media (max-width: 768px){
-    .button-box {
+    .button-box  ul{
         grid-template-columns: 100%;
     }
 
@@ -405,4 +408,9 @@ padding: 35px 0px;
     .nordic-box .title img{
         display: none;
     }
+     .button-item{
+        
+         
+    }
+   
 }
